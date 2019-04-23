@@ -1,0 +1,51 @@
+{
+  "sources": [
+    {
+      "id": "bbc",
+      "Description": "The BBC news feeds.",
+      "feeds": [
+        {
+          "id": "uk",
+          "url": "http://feeds.bbci.co.uk/news/uk/rss.xml"
+        },
+        {
+          "id": "world",
+          "url": "http://feeds.bbci.co.uk/news/world/rss.xml"
+        },
+        {
+          "id": "technology",
+          "url": "http://feeds.bbci.co.uk/news/technology/rss.xml"
+        }
+      ]
+    },
+    {
+      "id": "reuters",
+      "feeds": [
+        {
+          "id": "uk",
+          "url": "http://feeds.reuters.com/reuters/UKdomesticNews"
+        },
+        {
+          "id": "world",
+          "url": "http://feeds.reuters.com/reuters/UKWorldNews"
+        },
+        {
+          "id": "technology",
+          "url": "http://feeds.reuters.com/reuters/technologyNews"
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "technology",
+      "description": "News articles about technology."
+    },
+    {
+      "id": "uk"
+    },
+    {
+      "id": "world"
+    }
+  ]
+}
